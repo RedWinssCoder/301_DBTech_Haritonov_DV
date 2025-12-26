@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errors[] = 'Имя обязательно для заполнения';
     }
     if (empty($specialization)) {
-        $errors[] = 'Специализация обязательна для заполнения';
+        $errors[] = 'Специализация обязательна для заполнения!';
     }
     
     if (empty($errors)) {
